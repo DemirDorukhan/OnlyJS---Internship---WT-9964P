@@ -1,0 +1,23 @@
+.app-badge{
+    height: 3rem;
+}
+
+.masthead-device-mockup{
+    max-width: 17rem;
+}
+
+.features-device-mockup{
+    max-width: 17rem;
+}
+
+.bg-gradient-primary-to-secondary {
+    background: linear-gradient(45deg, #2937f0, #9f1ae2);
+}
+
+.app_logo {
+    height: 3rem;
+}
+
+.icon-feature {
+    font-size: 4rem;
+}
