@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
-        
+     
     </style>
 </head>
 
@@ -43,35 +43,36 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header bg-testimonial text-white pt-4 pb-4">
-          <h1 class="modal-title fs-5 text-black " id="exampleModalLabel">Send Feedback</h1>
+          <h1 class="modal-title fs-5 text-white  " id="exampleModalLabel">Send Feedback</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput1" placeholder="name@example.com">
-                <label for="floatingInput1">Full name</label>
-              </div>
-            <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email address</label>
-              </div>
-              <div class="form-floating mb-3">
-                <input type="tel" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Phone Number</label>
-              </div>
-              <div class="form-floating mb-3">
-                <input type="tel" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Phone Number</label>
-              </div>
-              <div class="form-floating mb-3">
-                <textarea type="tel" class="form-control" id="floatingPassword" placeholder="Password" style="height: 10rem;"></textarea>
-                <label for="floatingPassword">Message</label>
-              </div>
-        </div>
-        <div class="d-grid">
 
-          <button type="button" class="btn btn-primary mx-3 btn-lg mb-4 rounded-5">Submit</button>
+
+        <form action="https://formsubmit.co/aff7c076bd5402c3bb8c887280fa673c" method="POST">
+        <div class="modal-body">
+            
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="name" placeholder="Full Name" name="name">
+                    <label for="floatingInput1">Full name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="tel" class="form-control" id="tel_number" placeholder="+" name="phone_number">
+                    <label for="floatingPassword">Phone Number</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea type="text" class="form-control" id="text_area" placeholder="Message" name="message" style="height: 10rem;"></textarea>
+                    <label for="floatingPassword">Message</label>
+                </div>
+            
         </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary mx-3 btn-lg mb-4 rounded-5">Submit</button>
+                </div>
+        </form>
       </div>
     </div>
   </div>
@@ -91,21 +92,30 @@
                                 <img class="app-badge" src="/Assets/app-store-badge.svg" alt="app store link">
                             </a>
                             <a href="#!">
-                                <img class="app-badge" src="/Assets/app-store-badge.svg" alt="google playstore link">
+                                <img class="app-badge" src="/Assets/google-play-badge.svg" alt="app store link">
                             </a>
                         </div>
                 </div>
             </div>
 
             <div class="col-lg-6 ">
+
                 <div class="row justify-content-center ">
-                    <div class="masthead-device-mockup  ">
-                        <div class="device-wrapper z-1 ">
-                            <img class="img-fluid " src="/Assets/phone-screen.png" alt="">
-                        </div>
+                    <div class="masthead-device-mockup ">
+                        
+                        
+
+                        <div class="device-wrapper position-relative   ">
+
+                            <div class="circle d-none d-sm-block  "></div>
+                            <img class="img-fluid" src="/Assets/phone-screen.png" alt="">
+                            
+                            
+                        </div>      
                     </div>
+                    
                 </div>
-            </div>
+        </div>
 
         </div>
     </div>
@@ -135,7 +145,7 @@
                         <!--First Feature-->
                         <div class="col-md-6 mb-5 ">
                             <div class="text-center">
-                                <i class="bi-phone icon-feature text-gradient d-block mb-3"></i>
+                                <i class="bi-phone icon-feature text-gradient d-block mb-3 icon-color"></i>
                                 <h3 class="font-alt">Device Mockups</h3>
                                 <p class="text-muted mb-0">
                                     Ready to use HTML/CSS device mockups, no Photoshop required!
@@ -145,7 +155,7 @@
                          <!--Second Feature-->
                          <div class="col-md-6 mb-5 ">
                             <div class="text-center">
-                                <i class="bi-camera icon-feature text-gradient d-block mb-3"></i>
+                                <i class="bi-camera icon-feature text-gradient d-block mb-3 icon-color"></i>
                                 <h3 class="font-alt">Flexible Use</h3>
                                 <p class="text-muted mb-0">
                                     Put an image, video, animation, or anything else in the screen!
@@ -158,7 +168,7 @@
                             <!--First Feature-->
                             <div class="col-md-6 mb-5 mb-md-0 ">
                                 <div class="text-center">
-                                    <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
+                                    <i class="bi-gift icon-feature text-gradient d-block mb-3 icon-color"></i>
                                     <h3 class="font-alt">Free to Use</h3>
                                     <p class="text-muted mb-0">
                                         As always, this theme is free to download and use for any purpose!
@@ -168,7 +178,7 @@
                              <!--Second Feature-->
                              <div class="col-md-6">
                                 <div class="text-center">
-                                    <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
+                                    <i class="bi-patch-check icon-feature text-gradient d-block mb-3 icon-color"></i>
                                     <h3 class="font-alt">Open Source</h3>
                                     <p class="text-muted mb-0">
                                         Since this theme is MIT licensed, you can use it commercially!
@@ -182,7 +192,9 @@
                         <div class="col-lg-4 order-lg-0 ">
                             <div class="row justify-content-center ">
                             <div class="features-device-mockup">
-                                <div class="device-wrapper z-1 ">
+                                
+                                <div class="device-wrapper position-relative  ">
+                                    <div class="circle-feature d-none d-sm-block  "></div>
                                     <img class="img-fluid " src="/Assets/phone-screen.png" alt="">
                                 </div>
                             </div>
@@ -209,6 +221,55 @@
         </div>
     </div>
   </section>
+
+  <!--Start Building Section-->
+  <div class="building-container ">
+    <div class="building-bg">
+        <div class="overlay pt-5">
+        <div class="content pt-5 px-5 m-5 text-start d-block p-5">
+            <h2 class="display-1 lh-1 pb-3 ">Stop waiting. <br />
+                Start building.
+            </h2>
+            
+                <button class="btn btn-outline-light p-3 rounded-5">Download for free</button>
+            
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <!--App Badge Section-->
+  <section class="bg-gradient-primary-to-secondary py-5" id="download_section">
+    <div class="container px-5 ">
+        <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
+        <div class="d-flex flex-column flex-lg-row align-items-center  justify-content-center">
+            <a class="me-lg-3 mb-4 mb-lg-0" href="">
+                <img class="app-badge" src="/Assets/app-store-badge.svg" alt="app store link">
+            </a>
+            <a href="">
+                <img class="app-badge" src="/Assets/google-play-badge.svg" alt="app store link">
+            </a>
+        </div>
+    </div>
+  </section>
+
+  
+  <footer class="bg-black text-center py-5">
+    <div class="container px-5">
+
+        <div class="text-white-50 small">
+        <div class="mb-2">Your Website 2024. All Rights Reserved.</div>
+        </div>
+        <div class="text-white-50 small d-flex justify-content-center align-items-center">
+            <a href="#!" class="footer-link">Privacy</a>
+            <span class="mx-1">·</span>
+            <a href="#!" class="footer-link">Terms</a>
+            <span class="mx-1">·</span>
+            <a href="#!" class="footer-link">FAQ</a>
+        </div>
+    </div>
+</footer>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
